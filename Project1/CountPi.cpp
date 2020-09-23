@@ -8,7 +8,7 @@ double countPi(int power)
 	double pi = 0.0;
 	double eps = pow(10, -power);
 	unsigned long i = 0;
-	double el = 4; ;
+	double el = 4;
 	while (el > eps)
 	{
 		el = (double)4 / div;
